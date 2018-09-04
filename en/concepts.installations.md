@@ -12,7 +12,7 @@ In case a sensor is removed from its location, future queries for its installati
     "errorCode": "INSTALLATION_REPLACED",
     "message": "Installation was replaced with another one",
     "details": {
-        "successorId": &lt;new installation identifier&gt;
+        "successorId": <new installation identifier>
     }
 }
 ```
