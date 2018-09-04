@@ -32,7 +32,7 @@ Additionally in case of an error a JSON response is returned in following format
 curl -X GET \
     --header 'Accept: application/json' \
     --header 'apikey: {{ apikey }}' \
-    "https://airapi.airly.eu/v2/measurements/point?lat=200&lng=19.940984"
+    'https://airapi.airly.eu/v2/measurements/point?lat=200&lng=19.940984'
 ```
 
 ### Error response

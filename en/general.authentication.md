@@ -20,6 +20,6 @@ apikey: {{ apikey }}
 curl -X GET \
     --header 'Accept: application/json' \
     --header 'apikey: {{ apikey }}' \
-    https://airapi.airly.eu/v2/meta/indexes
+    'https://airapi.airly.eu/v2/meta/indexes'
 ```
 

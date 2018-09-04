@@ -13,5 +13,5 @@ Required parameters;
 curl -X GET \
     --header 'Accept: application/json' \
     --header 'apikey: {{ apikey }}' \
-    https://airapi.airly.eu/v2/installations/204
+    'https://airapi.airly.eu/v2/installations/204'
 ```

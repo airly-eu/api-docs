@@ -16,7 +16,7 @@ Pole `latitude` (`lat`) może przyjmować wartości od -90.0 do +90.0, zaś pole
 curl -X GET \
     --header 'Accept: application/json' \
     --header 'apikey: {{ apikey }}' \
-    "https://airapi.airly.eu/v2/installations/204"
+    'https://airapi.airly.eu/v2/installations/204'
 ```
 
 ### Odpowiedź
