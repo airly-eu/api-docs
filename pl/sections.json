@@ -26,7 +26,8 @@
         "endpoints.measurements.point.md",
         "endpoints.meta.md",
         "endpoints.meta.indexes.md",
-        "endpoints.meta.measurements.md"
+        "endpoints.meta.measurements.md",
+        "summary.md"
     ],
     "sections": [
         { "text": "Wstęp", "slug": "introduction", "level": 0 },
@@ -56,6 +57,7 @@
         { "text": "W punkcie", "slug": "endpoints.measurements.point", "level": 2 },
         { "text": "Meta", "slug": "endpoints.meta", "level": 1 },
         { "text": "Indeksy", "slug": "endpoints.meta.indexes", "level": 2 },
-        { "text": "Pomiary", "slug": "endpoints.meta.measurements", "level": 2 }
+        { "text": "Pomiary", "slug": "endpoints.meta.measurements", "level": 2 },
+        { "text": "Podsumowanie", "slug": "summary", "level": 0 }
     ]
 }
