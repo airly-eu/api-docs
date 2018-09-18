@@ -10,7 +10,7 @@ Pole `latitude` (`lat`) może przyjmować wartości od -90.0 do +90.0, zaś pole
 
 ^^^
 
-### Przykłado zapytania
+### Przykład zapytania
 
 ```bash
 curl -X GET \
