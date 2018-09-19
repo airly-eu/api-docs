@@ -8,7 +8,7 @@ Required parameters:
 
 Optional parameters:
 - **maxDistanceKM** (_double_) -  default value 3.0; all the returned installations must be located within this limit from the given point (in km); negative value means no limit
-- **maxResults** (_integer_) -  default value 1.0; maximum number of installations to return; negative value means no limit
+- **maxResults** (_integer_) -  default value 1; maximum number of installations to return; negative value means no limit
 
 ^^^
 

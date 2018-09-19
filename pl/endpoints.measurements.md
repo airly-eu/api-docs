@@ -5,7 +5,15 @@ Operacje z grupy `/v2/measurements/` umożliwiają pobieranie danych pomiarowych
 - **history** - lista elementów typu _AveragedValues_; zawiera listę historycznych średnich pomiarów godzinowych, za ostatnie 24 pełne godziny
 - **forecast** - lista elementów typu _AveragedValues_; zawiera listę prognozowanych średnich pomiarów godzinowych, dla kolejnych 24 pełnych godzin
 
-<p>&nbsp;</p>
+::: tip
+Pole `history` zawiera dane dla **24 ostatnich pełnych godzin**, tzn. przykładowo jeżeli aktualnie jest godzina 09:27 UTC, to pole będzie zawierać 24 elementy, z których pierwszy zawiera dane dla przedziału czasu 09:00-10:00 UTC poprzedniego dnia, a ostatni dla przedziału 08:00-09:00 UTC dziś.
+
+Natomiast pole `forecast` zawiera prognozowane dane dla **24 kolejnych pełnych godzin**, przy czym pierwsza godzina to aktualna godzina; przykładowo jeżeli aktualnie jest godzina 09:27 UTC, to pole będzie zawierać 24 elementy, z których pierwszy zawiera dane dla przedziału czasu 09:00-10:00 UTC dziś, a ostatni dla przedziału 08:00-09:00 UTC następnego dnia.
+
+Warto zauważyć że pola history oraz forecast tworzą nieprzerwany ciąg danych dla 48 godzin, z których pierwsze 24 godziny stanowią wartości zmierzone, a kolejne 24 godziny to wartości prognozowane.
+
+Pole `current` zawiera średnie dane pomiarowe za **ostatnie 60 minut** (średnia krocząca) licząc od "teraz", tj. od momentu wysłania zapytania. Przykładowo jeśli aktualnie jest godzina 09:27 UTC, to pole to zawiera dane dla przedziału czasu 08:27-09:27 UTC. Przy czym dla instalacji innych niż Airly (np. stacje GIOŚ) pole to może zawierać dane do 3 godzin wstecz, z uwagi na opóźnienia w przesyłaniu danych przez podmioty zewnętrzne.
+:::
 
 Obiekt **AveragedValues** składa się z pól:
 - **fromDateTime** / **tillDateTime** (_string_) - znacznik czasu w formacie ISO8601; zawiera datę i czas w odniesieniu do strefy UTC; pola w odpowiedzi oznaczają przedział czasu dla którego zostały zebrane i uśrednione dane pomiarowe z danej instalacji, lub na danym obszarze

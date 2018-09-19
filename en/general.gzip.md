@@ -1,4 +1,4 @@
-## Kompresja GZIP | general.gzip
+## GZIP compression | general.gzip
 
 All the API endpoints support GZIP compression. Enabling compression significantly reduces API response size and can speed up its transfer, and it is a recommended practice.
 

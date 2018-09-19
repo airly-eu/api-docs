@@ -8,7 +8,7 @@ Parametry wymagane:
 
 Parametry opcjonalne:
 - **maxDistanceKM** (_double_) -  domyślna wartość 3.0; określa limit odległości w kilometrach w jakiej od określonego punktu muszą leżeć wszystkie znalezione instalacje; wartość ujemna oznacza brak limitu
-- **maxResults** (_integer_) -  domyślna wartość 1.0; określa limit instalacji zwróconych w odpowiedzi; wartość ujemna oznacza brak limitu
+- **maxResults** (_integer_) -  domyślna wartość 1; określa limit instalacji zwróconych w odpowiedzi; wartość ujemna oznacza brak limitu
 
 ^^^
 

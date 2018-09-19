@@ -5,7 +5,15 @@ Operations in group `/v2/measurements` allow to query measurements data by vario
 - **history** - list of elements of type _AveragedValues_; contains a list of historical hourly averaged measurements for the last 24 full hours
 - **forecast** - list of elements of type _AveragedValues_; contains a list of anticipated future hourly averaged measurements for the next 24 full hours
 
-<p>&nbsp;</p>
+::: tip
+The field `history` contains data for the **last 24 full hours**, e.g. if current time is 09:27 UTC, then that field will contain 24 elements, starting with hour interval 09:00-10:00 UTC yesterday, and ending with hour interval 08:00-09:00 UTC today. 
+
+The field `forecast` contains forecast data for the **next 24 full hours**, where the first hour is the current hour; e.g. if current time is 09:27 UTC, then that field will contain 24 elements, starting with hour interval 09:00-10:00 UTC today, and ending with hour interval 08:00-09:00 UTC tomorrow.
+
+It is worth noting that the history and forecast fields form an uninterrupted sequence of data for 48 hours, of which the first 24 hours are measured values, and the next 24 hours are forecast values.
+
+The field `current` contains averaged measurements for the **last 60 minutes** (moving average), up until "now", i.e. the time of the request. For example, if the current time is 09:27 UTC, this field contains data for the time interval 08:27-09:27 UTC. However, for installations other than Airly (e.g. GIOŚ stations) this field may contain data up to 3 hours old, due to delays in third party data arrival.
+:::
 
 **AveragedValues** contains:
 - **fromDateTime** / **tillDateTime** (_string_) - ISO8601 timestamp; date and time in UTC; the two fields represent time interval during which the data in this payload was measured and averaged
