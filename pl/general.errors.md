@@ -16,11 +16,11 @@ Ponadto w przypadku błędu zwrócona zostaje odpowiedź w formacie JSON o nast�
 
 ```json
 {
-    "errorCode": "kod błędu",
-    "message": "opis błędu",
-    "details": {
-        <mapa klucz-wartość z dodatkowymi szczegółami błędu>
-    }
+  "errorCode": "kod błędu",
+  "message": "opis błędu",
+  "details": {
+    <mapa klucz-wartość z dodatkowymi szczegółami błędu>
+  }
 }
 ```
 
