@@ -16,11 +16,11 @@ Additionally in case of an error a JSON response is returned in following format
 
 ```json
 {
-    "errorCode": <error code>,
-    "message": <message describing error>,
-    "details": {
-        <key-value map with more details describing the error>
-    }
+  "errorCode": <error code>,
+  "message": <message describing error>,
+  "details": {
+    <key-value map with more details describing the error>
+  }
 }
 ```
 
