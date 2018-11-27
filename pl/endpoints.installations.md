@@ -9,6 +9,7 @@ Operacje z grupy `/v2/installations/` umożliwiają wyszukiwanie instalacji oraz
 - **elevation** (_double_) -  określa wysokość w metrach nad poziomem morza na jakiej zamontowany jest sensor
 - **airly** (_bool_) -  flaga określająca czy instalacja jest urządzeniem Airly; np. stacje pomiarowe GIOŚ są oznaczone jako false
 - **sponsor**:
+    - **id** (_integer_) - identyfikator sponsora instalacji
     - **name** (_string_) -  nazwa sponsora instalacji
     - **description** (_string_) -  dodatkowy tekst opisujący sponsora instalacji, pole opcjonalne
     - **logo** (_string_) -  adres url prowadzący do logo sponsora (obrazek w formacie jpg); pole opcjonalne

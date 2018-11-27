@@ -9,6 +9,7 @@ Operations in group `/v2/installations/` allow to search and list available inst
 - **elevation** (_double_) - altitude at which device is installed; meters above mean sea level ([mamsl](https://en.wikipedia.org/wiki/Metres_above_sea_level))
 - **airly** (_bool_) - flag indicating whether this installation is an Airly device or not; e.g. GIOŚ stations are flagged as false
 - **sponsor**:
+    - **id** (_integer_) - sponsor identifier
     - **name** (_string_) - name of this installation's sponsor
     - **description** (_string_) - additional description of this installation's sponsor; optional field
     - **logo** (_string_) - url pointing to sponsor's logo (jpg image); optional field
