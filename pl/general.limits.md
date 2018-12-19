@@ -4,7 +4,7 @@
 
 W wersji darmowej dostępu do API użytkownik zobowiązuje się do wykorzystywania API wyłącznie w celach niekomercyjnych.
 
-Obok danych pochodzących z naszego API prezentowanych w aplikacjach należy umieścić nasze [logo](https://airly.eu/wp-content/themes/draftweb/images/presskit/big/logo1.jpg).
+Obok danych pochodzących z naszego API prezentowanych w aplikacjach należy umieścić nasze logo: [svg](https://cdn.airly.eu/assets/LogoBlue.svg), [png](https://cdn.airly.eu/assets/LogoBlue.png).
 
 Więcej szczegółów dotyczących zasad wykorzystania API można znaleźć w naszym [Regulaminie](https://airly.eu/docs/tos-pl.pdf).
 

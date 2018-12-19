@@ -4,7 +4,7 @@
 
 On a free plan, API consumer is required to use our API only in non-commercial projects.
 
-When presenting data obtained from our API you should present our [logo](https://airly.eu/wp-content/themes/draftweb/images/presskit/big/logo1.jpg).
+When presenting data obtained from our API you should present our logo: [svg](https://cdn.airly.eu/assets/LogoBlue.svg), [png](https://cdn.airly.eu/assets/LogoBlue.png).
 
 More details are available in our [Terms of Service](https://airly.eu/docs/tos-en.pdf).
 
