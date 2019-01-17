@@ -14,7 +14,7 @@ W celu zachowania wysokiej przepustowości i jakości usługi dla wszystkich uż
 
 Domyślne limity dla wszystkich użytkowników wynoszą **1000** zapytań dziennie oraz **50** zapytań na minutę dla pojedynczego klucza.
 
-Zliczaniu podlegają wszystkie zapytania HTTP wysyłane do API, niezależnie od tego czy były wykonane poprawnie czy też zwróciły błąd. Każde pojedyncze zapytanie zmniejsza aktualnie dostępny limit o 1. Liczniki resetują się o północy (limit dzienny) oraz o każdej pełnej minucie (limit minutowy).
+Zliczaniu podlegają wszystkie zapytania HTTP wysyłane do API, niezależnie od tego czy były wykonane poprawnie czy też zwróciły błąd. Każde pojedyncze zapytanie zmniejsza aktualnie dostępny limit o 1. Liczniki resetują się o północy UTC (limit dzienny) oraz o każdej pełnej minucie (limit minutowy).
 
 ::: tip
 Powyższe limity pozwalają np. na odpytywanie o pomiary pojedynczego sensora z częstotliwością co 1.5 minuty przez całą dobę, lub na zbieranie danych z 40 sensorów z częstotliwością co godzinę przez całą dobę, powinny zatem być wystarczające w większości indywidualnych zastosowań.

@@ -14,7 +14,7 @@ In order to maintain high API throughput, availability and quality of the servic
 
 Default rate limits per `apikey` are **1000** API requests per day and **50** API requests per minute for all users.
 
-All the HTTP requests are counted towards the limit, regardless of whether the request succeeded or not. Each request decrements the currently available limit by 1. The counters are reset each day at midnight (the daily limit) and every full minute (the minute limit).
+All the HTTP requests are counted towards the limit, regardless of whether the request succeeded or not. Each request decrements the currently available limit by 1. The counters are reset each day at midnight UTC (the daily limit) and every full minute (the minute limit).
 
 ::: tip
 The default limits allow you e.g. to query measurements of particular sensor every 1.5 minute for the whole day or you can query measurements of 40 sensors every hour for the whole day. This should be sufficient for most of the individual use cases.
