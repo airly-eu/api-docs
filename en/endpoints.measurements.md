@@ -23,7 +23,7 @@ The field `current` contains averaged measurements for the **last 60 minutes** (
 - **indexes** - array of objects of type _Index_; single element represents an index value calculated for the measurements in this payload
     - **name**  (_string_) - name of the index (e.g. CAQI, or PIJP)
     - **value** (_double_) - numerical value of the calculated index
-    - **level** (_string_) - discreet level of the index (e.g. HIGH, or LOW etc.)
+    - **level** (_string_) - [discreet level of the index](#endpoints.meta.indexes) (e.g. HIGH, or LOW etc.)
     - **description** (_string_) - description of the index level; the text translated and returned in a language according to `Accept-Language` request header
     - **advice** (_string_) - additional text with advice regarding current index level; the text translated and returned in a language according to `Accept-Language` request header
     - **color** (_string_) - color representing index level; in a form of hexadecimal RGB triplet (e.g. #D1CF1E)
