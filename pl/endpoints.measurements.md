@@ -23,7 +23,7 @@ Obiekt **AveragedValues** składa się z pól:
 - **indexes** - lista obiektów typu _Index_; pojedynczy obiekt reprezentuje wartość indeksu obliczonego dla danych pomiarowych zawartych w values
     - **name**  (_string_) - nazwa obliczonego indeksu (np. CAQI, albo PIJP)
     - **value** (_double_) -  wartość numeryczna obliczonego indeksu
-    - **level** (_string_) -  poziom indeksu (np. HIGH, albo LOW itp)
+    - **level** (_string_) -  [poziom indeksu](#endpoints.meta.indexes) (np. HIGH, albo LOW itp)
     - **description** (_string_) -  tekstowy opis danego poziomu zanieczyszczeń; wartość pola jest zwracana w języku wedle nagłówka `Accept-Language`
     - **advice** (_string_) -  dodatkowy tekst zawierający zalecenia dot. danego poziomu zanieczyszczeń; wartość pola jest zwracana w języku wedle nagłówka `Accept-Language`
     - **color** (_string_) -  kolor odpowiadający danemu poziomowi indeksu; w formacie heksadecymalnym RGB (np. #D1CF1E)
