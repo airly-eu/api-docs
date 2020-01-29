@@ -12,12 +12,12 @@ More details are available in our [Terms of Service](https://airly.eu/docs/tos-e
 
 In order to maintain high API throughput, availability and quality of the service the API access is rate-limited.
 
-Default rate limits per `apikey` are **1000** API requests per day and **50** API requests per minute for all users.
+Default rate limit per `apikey` is **100** API requests per day for all users.
 
 All the HTTP requests are counted towards the limit, regardless of whether the request succeeded or not. Each request decrements the currently available limit by 1. The counters are reset each day at midnight UTC (the daily limit) and every full minute (the minute limit).
 
 ::: tip
-The default limits allow you e.g. to query measurements of particular sensor every 1.5 minute for the whole day or you can query measurements of 40 sensors every hour for the whole day. This should be sufficient for most of the individual use cases.
+The default limits allow you e.g. to query measurements of particular sensor every 15 minutes for the whole day or you can query measurements of 4 sensors every hour for the whole day. This should be sufficient for most of the individual use cases.
 
 In case of applications displaying data continuously we recommend caching API responses in local storage and refreshing them periodically.
 :::
@@ -31,10 +31,8 @@ If you need an increased limit or want to use our data in a commercial project p
 Each API response contains additional HTTP headers that inform about current API key limits and their usage. Header names begin with `X-RateLimit-Limit-` and  `X-RateLimit-Remaining-`.
 
 ```
-X-RateLimit-Limit-day: 1000
-X-RateLimit-Limit-minute: 50
-X-RateLimit-Remaining-day: 996
-X-RateLimit-Remaining-minute: 46
+X-RateLimit-Limit-day: 100
+X-RateLimit-Remaining-day: 96
 ```
 
 ^^^
