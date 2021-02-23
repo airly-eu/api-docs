@@ -4,9 +4,9 @@
 
 On a free plan, API consumer is required to use our API only in non-commercial projects.
 
-When presenting data obtained from our API you should present our logo: [svg](https://cdn.airly.eu/assets/LogoBlue.svg), [png](https://cdn.airly.eu/assets/LogoBlue.png).
+When presenting data obtained from our API you should present our logo: [svg](https://cdn.airly.org/assets/brand/logo/primary/airly.svg), [png](https://cdn.airly.org/assets/brand/logo/primary/airly-1024.png).
 
-More details are available in our [Terms of Service](https://airly.eu/docs/tos-en.pdf).
+More details are available in our [Terms of Service](https://airly.org/en/terms-conditions/).
 
 ### Limits
 
@@ -24,7 +24,7 @@ In case of applications displaying data continuously we recommend caching API re
 
 In case of exceeding the limit API request will return `HTTP 429 - Too Many Requests`.
 
-If you need an increased limit or want to use our data in a commercial project please [contact us](https://airly.eu/en/contact/).
+If you need an increased limit or want to use our data in a commercial project please [contact us](https://airly.org/en/contact/).
 
 ### RateLimit Headers
 
