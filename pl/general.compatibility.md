@@ -11,7 +11,7 @@ Odpowiedzi JSON mają następujące cechy gwarantujące stabilność API:
 - Nowe pola mogą być dodane do odpowiedzi API w dowolnym momencie. Nie będą one kolidować z istniejącymi polami ani zmieniać ich znaczenia
 
 ::: tip
-W praktyce powyższe zasady oznaczają, że pola obowiązkowe zawsze będą w odpowiedzi i nie ma potrzeby sprawdzania ich obecności. Pola opcjonalne należy zawsze sprawdzać pod kątem obecności a ich brak lub wartość null należy stosownie obsłużyć. Nie należy oczekiwać, że listy bądź mapy będą zawierać jakieś określone spodziewane wartości, bądź konkretną liczbę elementów. 
+W praktyce powyższe zasady oznaczają, że pola obowiązkowe zawsze będą w odpowiedzi i nie ma potrzeby sprawdzania ich obecności. Pola opcjonalne należy zawsze sprawdzać pod kątem obecności a ich brak lub wartość null należy stosownie obsłużyć. Nie należy oczekiwać, że listy bądź mapy będą zawierać jakieś określone spodziewane wartości, bądź konkretną liczbę elementów.
 
 Np. instalacja która z jakiegoś powodu mierzy tylko wartości pogodowe (np. sensor pyłów jest uszkodzony), w polu `values` nie zwróci wartości pyłów PM.
 

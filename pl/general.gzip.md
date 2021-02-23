@@ -1,6 +1,6 @@
 ## Kompresja GZIP | general.gzip
 
-Wszystkie operacje API wspierają kompresję GZIP. Włączenie kompresji znacząco zmniejsza rozmiar danych przesyłanych z API i może skrócić czas ich pobierania i jest to zalecana praktyka. 
+Wszystkie operacje API wspierają kompresję GZIP. Włączenie kompresji znacząco zmniejsza rozmiar danych przesyłanych z API i może skrócić czas ich pobierania i jest to zalecana praktyka.
 
 W celu włączenia kompresji należy w zapytaniu HTTP przesłać dodatkowy nagłówek `Accept-Encoding: gzip`. Należy zwrócić uwagę aby klient HTTP używany do komunikacji z API był odpowiednio skonfigurowany i obsługiwał skompresowane odpowiedzi.
 

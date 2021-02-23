@@ -6,7 +6,7 @@ Operations in group `/v2/measurements` allow to query measurements data by vario
 - **forecast** - list of elements of type _AveragedValues_; contains a list of anticipated future hourly averaged measurements for the next 24 full hours
 
 ::: tip
-The field `history` contains data for the **last 24 full hours**, e.g. if current time is 09:27 UTC, then that field will contain 24 elements, starting with hour interval 09:00-10:00 UTC yesterday, and ending with hour interval 08:00-09:00 UTC today. 
+The field `history` contains data for the **last 24 full hours**, e.g. if current time is 09:27 UTC, then that field will contain 24 elements, starting with hour interval 09:00-10:00 UTC yesterday, and ending with hour interval 08:00-09:00 UTC today.
 
 The field `forecast` contains forecast data for the **next 24 full hours**, where the first hour is the current hour; e.g. if current time is 09:27 UTC, then that field will contain 24 elements, starting with hour interval 09:00-10:00 UTC today, and ending with hour interval 08:00-09:00 UTC tomorrow.
 
