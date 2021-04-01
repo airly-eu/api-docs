@@ -24,7 +24,7 @@ W przypadku aplikacji które wyświetlają dane w sposób ciągły zalecamy aby 
 
 W przypadku przekroczenia limitu zapytanie do API zwróci status `HTTP 429 - Too Many Requests`.
 
-Jeżeli potrzebujesz zwiększenia swojego limitu API lub chcesz wykorzystać nasze dane w projekcie komercyjnym, [skontaktuj się z nami](https://airly.org/pl/contact/).
+Jeżeli potrzebujesz zwiększenia swojego limitu API lub chcesz wykorzystać nasze dane w projekcie komercyjnym, [skontaktuj się z nami](https://airly.org/pl/kontakt/).
 
 ### Nagłówki RateLimit
 
