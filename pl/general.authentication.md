@@ -22,4 +22,3 @@ curl -X GET \
     --header 'apikey: {{ apikey }}' \
     'https://airapi.airly.eu/v2/meta/indexes'
 ```
-

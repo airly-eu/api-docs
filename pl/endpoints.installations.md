@@ -39,7 +39,7 @@ Operacje z grupy `/v2/installations/` umożliwiają wyszukiwanie instalacji oraz
   "sponsor": {
     "name": "KrakówOddycha",
     "description": "Sensor Airly w ramach akcji",
-    "logo": "https://cdn.airly.eu/logo/KrakówOddycha.jpg",
+    "logo": "https://cdn.airly.org/logo/KrakówOddycha.jpg",
     "link": "https://przykladowy_link_do_strony_sponsora.pl"
   }
 }

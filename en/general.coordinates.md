@@ -7,5 +7,3 @@ Coordinates are a pair of numbers named `latitude` (or `lat`) and `longitude` (`
  `latitude` (`lat`) values can range from -90.0 to +90.0, and `longitude` (`lng`) values can range from -180.0 to +180.0.
 
 ^^^
-
-

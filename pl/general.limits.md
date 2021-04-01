@@ -4,9 +4,9 @@
 
 W wersji darmowej dostępu do API użytkownik zobowiązuje się do wykorzystywania API wyłącznie w celach niekomercyjnych.
 
-Obok danych pochodzących z naszego API prezentowanych w aplikacjach należy umieścić nasze logo: [svg](https://cdn.airly.eu/assets/LogoBlue.svg), [png](https://cdn.airly.eu/assets/LogoBlue.png).
+Obok danych pochodzących z naszego API prezentowanych w aplikacjach należy umieścić nasze logo: [svg](https://cdn.airly.org/assets/brand/logo/primary/airly.svg), [png](https://cdn.airly.org/assets/brand/logo/primary/airly-1024.png).
 
-Więcej szczegółów dotyczących zasad wykorzystania API można znaleźć w naszym [Regulaminie](https://airly.eu/docs/tos-pl.pdf).
+Więcej szczegółów dotyczących zasad wykorzystania API można znaleźć w naszym [Regulaminie](https://airly.org/pl/regulaminy-polityka-prywatnosci/).
 
 ### Limity
 
@@ -24,7 +24,7 @@ W przypadku aplikacji które wyświetlają dane w sposób ciągły zalecamy aby 
 
 W przypadku przekroczenia limitu zapytanie do API zwróci status `HTTP 429 - Too Many Requests`.
 
-Jeżeli potrzebujesz zwiększenia swojego limitu API lub chcesz wykorzystać nasze dane w projekcie komercyjnym, [skontaktuj się z nami](https://airly.eu/pl/contact/).
+Jeżeli potrzebujesz zwiększenia swojego limitu API lub chcesz wykorzystać nasze dane w projekcie komercyjnym, [skontaktuj się z nami](https://airly.org/pl/kontakt/).
 
 ### Nagłówki RateLimit
 

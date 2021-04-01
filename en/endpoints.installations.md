@@ -39,7 +39,7 @@ Operations in group `/v2/installations/` allow to search and list available inst
   "sponsor": {
     "name": "KrakówOddycha",
     "description": "Airly Sensor is part of action",
-    "logo": "https://cdn.airly.eu/logo/KrakówOddycha.jpg",
+    "logo": "https://cdn.airly.org/logo/KrakówOddycha.jpg",
     "link": "https://sponsor_home_address.pl"
   }
 }

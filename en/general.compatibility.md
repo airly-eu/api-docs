@@ -11,7 +11,7 @@ JSON responses have following stability guarantees:
 - New properties may be added to the responses at any time, but they will not collide with existing properties, nor alter their meaning
 
 ::: tip
-In practice these rules mean that for properties marked as mandatory you can always expect them and there is no need to check for their presence. Optional properties must always be checked and null or missing values handled properly. Arrays and maps must not be expected to contain specific values, or concrete number of elements. 
+In practice these rules mean that for properties marked as mandatory you can always expect them and there is no need to check for their presence. Optional properties must always be checked and null or missing values handled properly. Arrays and maps must not be expected to contain specific values, or concrete number of elements.
 
 E.g. an installation that for some reason only measures weather conditions (it may have PM sensor broken) will not return the PM values in its `values` array.
 
