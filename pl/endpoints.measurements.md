@@ -37,6 +37,7 @@ Obiekt **AveragedValues** składa się z pól:
 
 Parametry zapytań wspólne dla wszystkich operacji:
 - **indexType** - określa typ indeksu jaki ma być obliczony i zwrócony w odpowiedzi dla danych pomiarowych; wspierane wartości to aktualnie: AIRLY_CAQI (domyślna), CAQI, oraz PIJP; (w obecnej wersji API zwracany jest tylko jeden wybrany indeks)
+- **indexPollutant** - określa zbiór rodzajów zanieczyszczeń jakie mają być brane pod uwagę podczas wyliczania wartości obliczanego indeksu, wspierane wartości to aktualnie: PM (domyślna = {PM10, PM25}), PM10, PM25, O3, NO2, SO2, CO, ALL (zbiór wszystkich podanych)
 
 
 ^^^
