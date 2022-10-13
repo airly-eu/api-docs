@@ -37,7 +37,7 @@ The field `current` contains averaged measurements for the **last 60 minutes** (
 
 Query parameters common for all endpoints:
 - **indexType** - selects the type of the index which should be calculated and returned in response; currently supported values are AIRLY_CAQI (default), CAQI, and PIJP; (in current API version only 1 selected index is returned)
-- **indexPollutant** - selects the set of pollutant types considered which calculating value of the index; currently supported values are PM (default = {PM10, PM25), PM10, PM25, O3, NO2, SO2, CO, ALL (set of all given pollutants)
+- **indexPollutant** - selects the set of pollutant types considered when calculating value of the index; currently supported values are PM (default = {PM10, PM25}), PM10, PM25, O3, NO2, SO2, CO, ALL (set of all given pollutants)
 
 ^^^
 
