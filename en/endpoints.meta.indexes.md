@@ -4,7 +4,7 @@ Endpoint returns a list of all the index types supported in the API along with l
 
 The returned array contains objects of type _IndexType_, which contain following fields:
 - **name** (_string_) - name of this index type, e.g. AIRLY_CAQI
-- **levels** - if of index levels definitions; contains objects of type _IndexLevel_:
+- **levels** - list of index levels definitions; contains objects of type _IndexLevel_:
     - **values** (_string_) - range of index values that this level represents, e.g. 0-25
     - **level** (_string_) - name of this index level e.g. "VERY_LOW"
     - **description** (_string_) - description of this index level; e.g. "Very Low"; this is a translated field, the value is returned in a language according to `Accept-Language` request header

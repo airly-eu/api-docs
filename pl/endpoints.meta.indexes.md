@@ -2,7 +2,7 @@
 
 Operacja zwraca listę typów indeksów dostępnych w API wraz z listą poziomów zdefiniowanych w ramach danego indeksu.
 
-Lista zawiera obiekty typu IndexType, które zawierają następujące pola:
+Lista zawiera obiekty typu _IndexType_, które zawierają następujące pola:
 - **name** (_string_) - nazwa typu indeksu, np. AIRLY_CAQI
 - **levels** - lista definicji poziomów indeksu, obiekty typu _IndexLevel_ zawierające:
     - **values** (_string_)- tekstowy opis zakresu wartości danego indeksu obejmującego ten poziom, np. 0-25
