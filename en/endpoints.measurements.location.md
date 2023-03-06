@@ -4,7 +4,7 @@ Endpoint returns measurements for concrete location given by `locationId`.
 
 In case of the location does not exist, or it does not have any installation, returns `404 Not Found`.
 
-Parametry wymagane:
+Required parameters:
 - **locationid** (_integer_) - location identifier
 
 ^^^
