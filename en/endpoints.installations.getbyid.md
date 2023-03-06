@@ -2,7 +2,7 @@
 
 Endpoint returns single installation metadata, given by `installationId`.
 
-Required parameters;
+Required parameters:
 - **installationId** (_integer_) - url path parameter; installation identifier
 
 ^^^

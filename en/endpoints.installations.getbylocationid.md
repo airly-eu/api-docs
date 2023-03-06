@@ -1,8 +1,8 @@
-### GET /v2/installations/{locationId} | endpoints.installations.getbylocationid
+### GET /v2/installations/location | endpoints.installations.getbylocationid
 
 Endpoint returns single installation metadata, given by `locationId`, response will always contain currently working installation.
 
-Parametry wymagane:
+Required parameters:
 - **locationId** (_integer_) - url path parameter; location identifier
 
 ^^^
@@ -13,5 +13,5 @@ Parametry wymagane:
 curl -X GET \
     --header 'Accept: application/json' \
     --header 'apikey: {{ apikey }}' \
-    'https://airapi.airly.eu/v2/location?locationId=8077'
+    'https://airapi.airly.eu/v2/installations/location?locationId=8077'
 ```

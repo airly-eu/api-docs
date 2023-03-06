@@ -5,7 +5,7 @@ Operacja zwraca połączone pomiary dla instalacji danych parametrem `locationId
 W przypadku gdy dana lokalizacja nie istnieje, lub gdy żaden sensor nie działał w ciągu ostatnihc 24 godziny, zwraca status `404 Not Found`.
 
 Parametry wymagane:
-- **locationid** (_integer_) - identyfikator lokalizacji
+- **locationId** (_integer_) - identyfikator lokalizacji
 
 ^^^
 
