@@ -4,7 +4,7 @@ Endpoint returns a list of all the air quality standard types supported in the A
 
 The returned array contains objects of type _StandardType_, which contain following fields:
 - **name** (_string_) - name of this standard type, e.g. WHO
-- **standardLimits** - key-value map representing pollutant concentration limits defined by the standard, always in µg/m³ 
+- **standardLimits** - key-value map representing pollutant concentration limits defined by the standard, always in µg/m³
 
 ^^^
 

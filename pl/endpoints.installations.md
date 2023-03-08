@@ -3,6 +3,7 @@
 Operacje z grupy `/v2/installations/` umożliwiają wyszukiwanie instalacji oraz pobieranie ich metadanych takich jak położenie, dane adresowe itd. Wszystkie operacje zwracają jednolity format odpowiedzi, której poszczególne pola oznaczają:
 - **id** (_integer_) - unikalny identyfikator instalacji;  za pomocą id można odpytywać o pomiary konkretnej instalacji
 - **latitude**, **longitude** (_double_) -  współrzędne geograficzne instalacji; określają dokładne położenie czujnika na mapie
+- **locationId** (_integer_) - unikalny identyfikator lokalizacji;  za pomocą id można odpytywać o pomiary konkretnej lokalizacji
 - **address**:
     - **country**, **city**, **street**, **number** (_string_) -  dane adresowe instalacji; każde z pól opcjonalne, może być puste
     - **displayAddress1**, **displayAddress2** (_string_) -  dodatkowe informacje dot. lokalizacji np. nazwa szkoły lub przedszkola; pola opcjonalne
@@ -14,6 +15,7 @@ Operacje z grupy `/v2/installations/` umożliwiają wyszukiwanie instalacji oraz
     - **description** (_string_) -  dodatkowy tekst opisujący sponsora instalacji, pole opcjonalne
     - **logo** (_string_) -  adres url prowadzący do logo sponsora (obrazek w formacie jpg); pole opcjonalne
     - **link** (_string_) -  adres url prowadzący do strony www sponsora; pole opcjonalne
+    - **displayName** (_string_) - dodatkowe informacje dot. sponsora np. akronim nazwy sponsora; pole opcjonalne
 
 ^^^
 
@@ -26,6 +28,7 @@ Operacje z grupy `/v2/installations/` umożliwiają wyszukiwanie instalacji oraz
     "latitude": 50.062006,
     "longitude": 19.940984
   },
+  "locationId": 204,
   "address": {
     "country": "Poland",
     "city": "Kraków",
@@ -37,10 +40,12 @@ Operacje z grupy `/v2/installations/` umożliwiają wyszukiwanie instalacji oraz
   "elevation": 220.38,
   "airly": true,
   "sponsor": {
+    "id": 7,
     "name": "KrakówOddycha",
     "description": "Sensor Airly w ramach akcji",
     "logo": "https://cdn.airly.org/logo/KrakówOddycha.jpg",
-    "link": "https://przykladowy_link_do_strony_sponsora.pl"
+    "link": "https://przykladowy_link_do_strony_sponsora.pl",
+    "displayName": "KrakówOddycha"
   }
 }
 ```
