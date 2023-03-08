@@ -3,6 +3,7 @@
 Operations in group `/v2/installations/` allow to search and list available installations and retrieve their metadata, e.g. location, address data etc. All the operations return unified payload response with following attributes:
 - **id** (_integer_) - unique installation identifier; having installationId you can query measurements from particular installation
 - **latitude**, **longitude** (_double_) - installation coordinates; exact sensor location on map
+- **locationId** (_integer_) - unique location identifier; having locationId you can query measurements from particular location
 - **address**:
     - **country**, **city**, **street**, **number** (_string_) - installation address data; each attribute is optional, may be empty or null
     - **displayAddress1**, **displayAddress2** (_string_) - extra fields describing address, e.g. school name or number; optional fields
@@ -14,6 +15,7 @@ Operations in group `/v2/installations/` allow to search and list available inst
     - **description** (_string_) - additional description of this installation's sponsor; optional field
     - **logo** (_string_) - url pointing to sponsor's logo (jpg image); optional field
     - **link** (_string_) - url pointing to sponsor's website; optional field
+    - **displayName** (_string_) - extra field describing sponsor e.g. sponsors name acronym; optional field
 
 ^^^
 
@@ -26,6 +28,7 @@ Operations in group `/v2/installations/` allow to search and list available inst
     "latitude": 50.062006,
     "longitude": 19.940984
   },
+  "locationId": 204,
   "address": {
     "country": "Poland",
     "city": "Kraków",
@@ -37,10 +40,12 @@ Operations in group `/v2/installations/` allow to search and list available inst
   "elevation": 220.38,
   "airly": true,
   "sponsor": {
+    "id": 7,
     "name": "KrakówOddycha",
     "description": "Airly Sensor is part of action",
     "logo": "https://cdn.airly.org/logo/KrakówOddycha.jpg",
-    "link": "https://sponsor_home_address.pl"
+    "link": "https://sponsor_home_address.pl",
+    "displayName": "KrakówOddycha"
   }
 }
 ```

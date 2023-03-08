@@ -7,3 +7,25 @@ Coordinates are a pair of numbers named `latitude` (or `lat`) and `longitude` (`
  `latitude` (`lat`) values can range from -90.0 to +90.0, and `longitude` (`lng`) values can range from -180.0 to +180.0.
 
 ^^^
+
+### Example request
+
+```bash
+curl -X GET \
+    --header 'Accept: application/json' \
+    --header 'apikey: {{ apikey }}' \
+    'https://airapi.airly.eu/v2/installations/204'
+```
+
+### Response
+
+```json
+{
+  "id": 204,
+  "location": {
+    "latitude": 50.062006,
+    "longitude": 19.940984
+  },
+  ...
+}
+```
